@@ -1,0 +1,151 @@
+PS C:\Users\prade> history
+
+  Id CommandLine
+  -- -----------
+   1 kubectl
+   2 history
+   3 clear
+   4 kubectl get nodes
+   5 kubrctl version
+   6 kubectl version
+   7 kubectl get nodes
+   8 kubectl get pods
+   9 kubectl get nm
+  10 kubectl get ns
+  11 kubectl delete nm ingress-nginx
+  12 clear
+  13 kubectl get services
+  14 kubectl create
+  15 kubectl create deployment my-nginx --image=nginx
+  16 kubectl get pods
+  17 kubectl get pods
+  18 kubectl get pods
+  19 kubectl get pods
+  20 kubectl get deployment
+  21 kubectl get pod
+  22 kubectl get replicaset
+  23 kubectl get services
+  24 kubectl edit deployment my-nginx
+  25 kubectl get replicaset
+  26 kubectl get deployment
+  27 kubectl logs my-nginx-5987c6f9b8-d2kjc
+  28 kubectl describe pod my-nginx-5987c6f9b8-d2kjc
+  29 kubectl get pods
+  30 kubectl exec -it my-nginx-5987c6f9b8-kw4ht -- bin/bash
+  31 kubectl get deployment
+  32 kubectl get pods
+  33 kubectl delete deployment my-nginx
+  34 kubectl get pods
+  35 kubectl get deployment
+  36 kubectl get replicasets
+  37 kubectl apply -f D:\Kubernates\Training\nginx-deployment.yml
+  38 kubectl get pods
+  39 kubectl get replicaset
+  40 kubectl get deployment
+  41 kubectl edit deployment my-nginx
+  42 kubectl get deployment
+  43 kubectl get replicaset
+  44 kubectl get pods
+  45 kubectl delete -f D:\Kubernates\Training\nginx-deployment.yml
+  46 kubectl apply -f D:\Kubernates\Training\nginx-deployment.yml
+  47 kubectl apply -f kubectl apply -f D:\Kubernates\Training\nginx-service.yml
+  48 kubectl apply -f D:\Kubernates\Training\nginx-service.yml
+  49 kubectl apply -f D:\Kubernates\Training\nginx-service.yml
+  50 kubectl get all
+  51 kubectl get all -o wide
+  52 kubectl get service
+  53 kubectl describe service my-nginx
+  54 kubectl get deployment
+  55 kubectl edit deployment my-nginx
+  56 kubectl get deployment
+  57 kubectl get deployment
+  58 kubectl describe service my-nginx
+  59 kubectl get pods
+  60 kubectl get pods -o wide
+  61 kubectl get deployment my-nginx
+  62 kubectl get deployment my-nginx -o wide
+  63 kubectl get deployment my-nginx -o yaml
+  64 kubectl get deployment my-nginx -o yaml > nginx-deployment-result.yml
+  74 kubectl get deployment my-nginx -o yaml > D:\Kubernates\Training\nginx-deployment-result.yml
+  kubectl delete -f .
+  81 kubectl get all
+  82 echo -n 'username' | base64
+  83 clear
+  84 ls
+  85 kubectl apply -f .\mongo-secret.yml
+  86 kubectl get secret
+  87 kubectl apply -f .\mongo.yml
+  88 kubectl get all
+  89 kubectl get pod
+  90 kubectl get pod --watch
+  91 kubectl get all
+  92 kubectl get all
+  93 kubectl get pods
+  94 kubectl apply -f .\mongo.yml
+  95 kubectl get all
+  96 kubectl describe service mongodb-service
+  97 kubectl get pods
+  98 kubectl get pods -o wide
+  99 kubectl get all | grep mongo
+ 100 kubectl apply -f .\mongo-configmap.yml
+ 101 kubectl apply -f .\mongo-express.yml
+ 102 kubectl get all
+ 103 kubectl apply -f .\mongo-express.yml
+ 104 kubectl get service
+ 105 kubectl get service -o wide
+ 112 minikube service mongo-express-service
+ 113 minikube status
+ 114 kubectl get all
+ 115 minikube status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   1 minikube.exe status
+   2 kubectl get all
+   3 kubectl get service
+   4 minikube service mongo-express-service
+   5 kubectl get service -o wide
