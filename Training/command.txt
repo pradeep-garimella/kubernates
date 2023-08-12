@@ -120,7 +120,73 @@ PS C:\Users\prade> history
 
   ssh-keygen -o -t rsa -C "pradeep.garimella@gmail.com"
 
-  
+     1 minikube status
+   2 kubectl get all
+   3 cd D:\Kubernates\Training
+   4 kubectl delete -f .
+   5 kubectl get all
+   6 clear
+   7 minikube addons enable ingress
+   8 $oldPath = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::Machine)
+   9 if ($oldPath.Split(';') -inotcontains 'C:\minikube'){...
+  10 minikube stop
+  11 New-Item -Path 'c:\' -Name 'minikube' -ItemType Directory -Force
+  12 Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing
+  13 minikube version
+  14 minikube start
+  15 minikube start --kubernetes-version=v1.27.3
+  16 minikube.exe status
+  17 minikube stop
+  18 minikube start
+  19 minikube addons enable metrics-server
+  20 kubectl get pod -n kube-system
+  21 minikube addons enable ingress
+  22 minikibe
+  23 minikube
+  24 minikube addons
+  25 minikube options
+  26 minikube addons list
+  27 minikube get all
+  28 minikube get pods
+  29 kubectl get all
+  30 clear
+  31 kubectl get all
+  32 kubectl get pod -n kube-system
+  33 kubectl get pod
+  34 kubectl get pod -n kube-system
+  35 kubectl get pods -n ingress-nginx
+  36 kubestl get namespaces
+  37 kubestl get namespace
+  38 kubectl get namespaces
+  39 clear
+  40 clear
+  41 kubectl get namespaces
+  42 minikube status
+  43 kubestl get namespaces
+  44 kubectl get namespaces
+  45 kubectl get all -n kubernetes-dashboard
+  46 ls
+  47 kubectl apply-f .\ingress.yml
+  48 kubectl apply -f .\ingress.yml
+  49 kubectl get ingress kubernates-dashboard
+  50 kubectl get ingress -n kubernates-dashboard
+  51 kubectl get ingress
+  52 kubectl get ingress -n kubernates-dashboard
+  53 kubectl delete -f .\ingress.yml
+  54 kubectl apply -f .\ingress.yml
+  55 kubectl get namespaces
+  56 kubectl apply -f .\ingress.yml
+  57 kubectl get ingress
+  58 kubectl get ingress
+  59 kubectl get ingress -n kubernates-dashboard
+  60 kubectl get ingress -n kubernates-dashboard
+  61 kubectl get all -n kubernetes-dashboard
+  62 kubectl get all
+  63 kubectl get ingress -n kubernetes-dashboard
+  64 kubectl get ingress -n kubernetes-dashboard
+  65 minikube dashboard
+
+
 
 
 
