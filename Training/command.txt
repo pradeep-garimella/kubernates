@@ -97,6 +97,30 @@ PS C:\Users\prade> history
  113 minikube status
  114 kubectl get all
  115 minikube status
+    2 kubectl get all
+   3 kubectl get service
+   4 minikube service mongo-express-service
+   5 kubectl get service -o wide
+   6 history
+   7 minikube.exe status
+   8 kubectl get nm
+   9 kubectl get ns
+  10 kubectl clusterinfo
+  11 kubectl cluster-info
+  12 kubectl create namespace my-namespace
+  13 kubectl get ns
+  14 kubectl get namespace ingress-nginx
+  15 kubectl delete namespace ingress-nginx
+  16 kubectl get ns
+  17 kubectl api-resources --namespaced=false
+  18 kubectl api-resources --namespaced=true
+  19 minikube addons enable ingress
+  20 kubectl get pod -n kube-system
+  21 minikube addons enable ingress
+
+  ssh-keygen -o -t rsa -C "pradeep.garimella@gmail.com"
+
+  
 
 
 
